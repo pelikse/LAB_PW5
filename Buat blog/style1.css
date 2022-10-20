@@ -1,0 +1,79 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    background-color: plum;
+    padding: 30px;
+    font-family: Arial;
+}
+.header
+{
+    padding: 25px;
+    text-align: center;
+    background: pink;
+}
+
+.header h1
+{
+    font-size: 35px;
+}
+
+.navigasi
+{
+    background-color: palevioletred;
+    overflow: hidden;
+    text-align:center ;
+}
+
+.navigasi a
+{
+    color: white;
+    padding: 14px;
+    text-decoration: none;
+}
+
+.navigasi a:hover
+{
+    background-color: rebeccapurple;
+    color: white;
+}
+
+.leftcolumn
+{
+    float: left;
+    width: 75%;
+}
+
+.rightcolumn
+{
+    float:left;
+    width: 25%;
+    background-color: plum;
+    padding-left: 20px;
+}
+
+.card
+{
+    background-color: violet;
+    padding: 20px;
+    margin-top: 20 px;
+}
+
+.content:after
+{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.footer
+{
+    font-size: 30px;
+    color: whitesmoke;
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(235, 94, 202);
+    margin-top: 20 px;
+}
